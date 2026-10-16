@@ -1,6 +1,13 @@
 import type { Metadata, Viewport } from "next";
-import { Oswald, Inter } from "next/font/google";
+import { Bebas_Neue, Oswald, Inter } from "next/font/google";
 import "./globals.css";
+
+const bebasNeue = Bebas_Neue({
+  variable: "--font-bebas",
+  weight: "400",
+  subsets: ["latin"],
+  display: "swap",
+});
 
 const oswald = Oswald({
   variable: "--font-oswald",
@@ -82,7 +89,7 @@ export default function RootLayout({
   return (
     <html
       lang="id"
-      className={`${oswald.variable} ${inter.variable} scroll-smooth`}
+      className={`${bebasNeue.variable} ${oswald.variable} ${inter.variable} scroll-smooth`}
     >
       <body className="min-h-screen flex flex-col font-sans bg-offwhite text-charcoal antialiased">
         {children}

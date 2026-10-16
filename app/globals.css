@@ -14,8 +14,18 @@
   --color-offwhite: #F8F7F2;
   --color-muted-green: #667067;
   
+  --font-bebas: var(--font-bebas), "Bebas Neue", Impact, sans-serif;
   --font-display: var(--font-oswald), "Barlow Condensed", -apple-system, BlinkMacSystemFont, sans-serif;
   --font-sans: var(--font-inter), -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.distressed-headline {
+  -webkit-mask-image: url("/images/textures/distressed-grunge.png");
+  mask-image: url("/images/textures/distressed-grunge.png");
+  -webkit-mask-size: 380px 380px;
+  mask-size: 380px 380px;
+  -webkit-mask-repeat: repeat;
+  mask-repeat: repeat;
 }
 
 :root {
