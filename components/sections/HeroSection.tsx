@@ -122,10 +122,10 @@ export function HeroSection() {
                 aria-hidden="true"
               />
 
-              {/* The Turquoise Jeep Cutout Image */}
+              {/* The Jeep Cutout Image */}
               <Image
-                src="/images/jeep-puncak-becici/hero/jeep-hero.png"
-                alt="Armada Jeep 4x4 Terbuka Wisata Puncak Becici"
+                src="/images/jeep-puncak-becici/herojeep.png"
+                alt="Armada Jeep 4x4 Wisata Puncak Becici"
                 fill
                 priority
                 sizes="(max-width: 1024px) 100vw, 55vw"

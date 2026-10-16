@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600;700&family=Oswald:wght@500;600;700&display=swap');
 @import "tailwindcss";
 
 @theme {
@@ -14,9 +15,9 @@
   --color-offwhite: #F8F7F2;
   --color-muted-green: #667067;
   
-  --font-bebas: var(--font-bebas), "Bebas Neue", Impact, sans-serif;
-  --font-display: var(--font-oswald), "Barlow Condensed", -apple-system, BlinkMacSystemFont, sans-serif;
-  --font-sans: var(--font-inter), -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-bebas: "Bebas Neue", Impact, sans-serif;
+  --font-display: "Oswald", "Barlow Condensed", -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-sans: "Inter", -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
 .distressed-headline {
